@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CAD776D156E64C400C2F0A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAD776C156E64C400C2F0A2 /* UIKit.framework */; };
+		9CAD776F156E64C400C2F0A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAD776E156E64C400C2F0A2 /* Foundation.framework */; };
+		9CAD7771156E64C400C2F0A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAD7770156E64C400C2F0A2 /* CoreGraphics.framework */; };
+		9CAD7777156E64C400C2F0A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD7775156E64C400C2F0A2 /* InfoPlist.strings */; };
+		9CAD7779156E64C400C2F0A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD7778156E64C400C2F0A2 /* main.m */; };
+		9CAD777D156E64C400C2F0A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD777C156E64C400C2F0A2 /* AppDelegate.m */; };
+		9CAD7780156E64C400C2F0A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD777F156E64C400C2F0A2 /* ViewController.m */; };
+		9CAD7783156E64C400C2F0A2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD7781156E64C400C2F0A2 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CAD7768156E64C400C2F0A2 /* houseTradeFee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = houseTradeFee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CAD776C156E64C400C2F0A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CAD776E156E64C400C2F0A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CAD7770156E64C400C2F0A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CAD7774156E64C400C2F0A2 /* houseTradeFee-Info.plist */ = {isa = PBXFileReference; path = "houseTradeFee-Info.plist"; sourceTree = "<group>"; };
+		9CAD7776156E64C400C2F0A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CAD7778156E64C400C2F0A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CAD777A156E64C400C2F0A2 /* houseTradeFee-Prefix.pch */ = {isa = PBXFileReference; path = "houseTradeFee-Prefix.pch"; sourceTree = "<group>"; };
+		9CAD777B156E64C400C2F0A2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CAD777C156E64C400C2F0A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CAD777E156E64C400C2F0A2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9CAD777F156E64C400C2F0A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CAD7782156E64C400C2F0A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CAD7765156E64C400C2F0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAD776D156E64C400C2F0A2 /* UIKit.framework in Frameworks */,
+				9CAD776F156E64C400C2F0A2 /* Foundation.framework in Frameworks */,
+				9CAD7771156E64C400C2F0A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CAD775D156E64C400C2F0A2 = {
+			isa = PBXGroup;
+			children = (
+				9CAD7772156E64C400C2F0A2 /* houseTradeFee */,
+				9CAD776B156E64C400C2F0A2 /* Frameworks */,
+				9CAD7769156E64C400C2F0A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CAD7769156E64C400C2F0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD7768156E64C400C2F0A2 /* houseTradeFee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CAD776B156E64C400C2F0A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD776C156E64C400C2F0A2 /* UIKit.framework */,
+				9CAD776E156E64C400C2F0A2 /* Foundation.framework */,
+				9CAD7770156E64C400C2F0A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CAD7772156E64C400C2F0A2 /* houseTradeFee */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD777B156E64C400C2F0A2 /* AppDelegate.h */,
+				9CAD777C156E64C400C2F0A2 /* AppDelegate.m */,
+				9CAD777E156E64C400C2F0A2 /* ViewController.h */,
+				9CAD777F156E64C400C2F0A2 /* ViewController.m */,
+				9CAD7781156E64C400C2F0A2 /* ViewController.xib */,
+				9CAD7773156E64C400C2F0A2 /* Supporting Files */,
+			);
+			path = houseTradeFee;
+			sourceTree = "<group>";
+		};
+		9CAD7773156E64C400C2F0A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD7774156E64C400C2F0A2 /* houseTradeFee-Info.plist */,
+				9CAD7775156E64C400C2F0A2 /* InfoPlist.strings */,
+				9CAD7778156E64C400C2F0A2 /* main.m */,
+				9CAD777A156E64C400C2F0A2 /* houseTradeFee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CAD7767156E64C400C2F0A2 /* houseTradeFee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CAD7786156E64C400C2F0A2 /* Build configuration list for PBXNativeTarget "houseTradeFee" */;
+			buildPhases = (
+				9CAD7764156E64C400C2F0A2 /* Sources */,
+				9CAD7765156E64C400C2F0A2 /* Frameworks */,
+				9CAD7766156E64C400C2F0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = houseTradeFee;
+			productName = houseTradeFee;
+			productReference = 9CAD7768156E64C400C2F0A2 /* houseTradeFee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CAD775F156E64C400C2F0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = iSoso;
+			};
+			buildConfigurationList = 9CAD7762156E64C400C2F0A2 /* Build configuration list for PBXProject "houseTradeFee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CAD775D156E64C400C2F0A2;
+			productRefGroup = 9CAD7769156E64C400C2F0A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CAD7767156E64C400C2F0A2 /* houseTradeFee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CAD7766156E64C400C2F0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAD7777156E64C400C2F0A2 /* InfoPlist.strings in Resources */,
+				9CAD7783156E64C400C2F0A2 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CAD7764156E64C400C2F0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAD7779156E64C400C2F0A2 /* main.m in Sources */,
+				9CAD777D156E64C400C2F0A2 /* AppDelegate.m in Sources */,
+				9CAD7780156E64C400C2F0A2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CAD7775156E64C400C2F0A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CAD7776156E64C400C2F0A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CAD7781156E64C400C2F0A2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CAD7782156E64C400C2F0A2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CAD7784156E64C400C2F0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CAD7785156E64C400C2F0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CAD7787156E64C400C2F0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "houseTradeFee/houseTradeFee-Prefix.pch";
+				INFOPLIST_FILE = "houseTradeFee/houseTradeFee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CAD7788156E64C400C2F0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "houseTradeFee/houseTradeFee-Prefix.pch";
+				INFOPLIST_FILE = "houseTradeFee/houseTradeFee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CAD7762156E64C400C2F0A2 /* Build configuration list for PBXProject "houseTradeFee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CAD7784156E64C400C2F0A2 /* Debug */,
+				9CAD7785156E64C400C2F0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CAD7786156E64C400C2F0A2 /* Build configuration list for PBXNativeTarget "houseTradeFee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CAD7787156E64C400C2F0A2 /* Debug */,
+				9CAD7788156E64C400C2F0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CAD775F156E64C400C2F0A2 /* Project object */;
+}
