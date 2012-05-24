@@ -15,6 +15,7 @@
 		9CAD777D156E64C400C2F0A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD777C156E64C400C2F0A2 /* AppDelegate.m */; };
 		9CAD7780156E64C400C2F0A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD777F156E64C400C2F0A2 /* ViewController.m */; };
 		9CAD7783156E64C400C2F0A2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD7781156E64C400C2F0A2 /* ViewController.xib */; };
+		9CAD77AF156E6FC300C2F0A2 /* ResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD77AE156E6FC300C2F0A2 /* ResultController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		9CAD776C156E64C400C2F0A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9CAD776E156E64C400C2F0A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9CAD7770156E64C400C2F0A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9CAD7774156E64C400C2F0A2 /* houseTradeFee-Info.plist */ = {isa = PBXFileReference; path = "houseTradeFee-Info.plist"; sourceTree = "<group>"; };
+		9CAD7774156E64C400C2F0A2 /* houseTradeFee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "houseTradeFee-Info.plist"; sourceTree = "<group>"; };
 		9CAD7776156E64C400C2F0A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CAD7778156E64C400C2F0A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9CAD777A156E64C400C2F0A2 /* houseTradeFee-Prefix.pch */ = {isa = PBXFileReference; path = "houseTradeFee-Prefix.pch"; sourceTree = "<group>"; };
-		9CAD777B156E64C400C2F0A2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CAD777A156E64C400C2F0A2 /* houseTradeFee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "houseTradeFee-Prefix.pch"; sourceTree = "<group>"; };
+		9CAD777B156E64C400C2F0A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CAD777C156E64C400C2F0A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9CAD777E156E64C400C2F0A2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9CAD777E156E64C400C2F0A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9CAD777F156E64C400C2F0A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9CAD7782156E64C400C2F0A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9CAD77AD156E6FC300C2F0A2 /* ResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultController.h; sourceTree = "<group>"; };
+		9CAD77AE156E6FC300C2F0A2 /* ResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				9CAD777C156E64C400C2F0A2 /* AppDelegate.m */,
 				9CAD777E156E64C400C2F0A2 /* ViewController.h */,
 				9CAD777F156E64C400C2F0A2 /* ViewController.m */,
+				9CAD77AD156E6FC300C2F0A2 /* ResultController.h */,
+				9CAD77AE156E6FC300C2F0A2 /* ResultController.m */,
 				9CAD7781156E64C400C2F0A2 /* ViewController.xib */,
 				9CAD7773156E64C400C2F0A2 /* Supporting Files */,
 			);
@@ -164,6 +169,7 @@
 				9CAD7779156E64C400C2F0A2 /* main.m in Sources */,
 				9CAD777D156E64C400C2F0A2 /* AppDelegate.m in Sources */,
 				9CAD7780156E64C400C2F0A2 /* ViewController.m in Sources */,
+				9CAD77AF156E6FC300C2F0A2 /* ResultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
